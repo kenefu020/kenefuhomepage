@@ -1,1 +1,0 @@
-# kenefu020HOME
