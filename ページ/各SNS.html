@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kenefu020公式サイト　各SNS</title>
     <style>
+        .for-pc { display:block; }
+.for-sp { display:none; }
+
+@media only screen and (max-width : 767px){
+  .for-pc { display:none; }
+  .for-sp { display:block; }
+}
 .画像サイズ自動調整 img {width: 50%;}
 .最下部文字の色変更 {color: gray;}
         <!--
@@ -33,6 +40,7 @@ padding: 0;}
     </style>
 </head>
 <body>
+    <div class="for-pc">
     <div class="メニュー部色変更">
     <h2><p><a href="ホーム.html"><img src="../画像/IMG_0570.png" alt="kenefu020公式サイト" width="84" height="63"></a>
     <a href="ホーム.html" class="メニュー">ホーム</a>
@@ -52,5 +60,11 @@ padding: 0;}
 <p><a href="情報.html" class="最下部">サイト情報</p>
     <p>制作:kenefu making、技術開発部</p>
 <p>© 2024 kenefu020</p></p></center></h1></span></div>
+</div>
+
+<div class="for-sp">
+    <h1><a href="ホーム.html">ホームへ戻る</a></h1>
+    <h1>メンテナンス中</h1>
+</div>
 </body>
 </html>
