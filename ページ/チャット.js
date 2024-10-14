@@ -2,6 +2,15 @@ const form = document.getElementById("form");
 const input = document.getElementById("input");
 const ul = document.getElementById("ul");
 
+const chats = JSON.parse(localStorage.getItem("chats"))
+;
+
+if (chats) {
+    chats.forEach(chat => {
+        add(chat);
+    })
+}
+
 form.addEventListener("submit", function (event) {
     event.preventDefault();
     add();
