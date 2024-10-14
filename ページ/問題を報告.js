@@ -4,7 +4,6 @@ const ul = document.getElementById("ul");
 
 form.addEventListener("submit", function (event) {
     event.preventDefault();
-    this.addEventListener();
     add();
 });
 
