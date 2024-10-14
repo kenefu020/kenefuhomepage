@@ -15,5 +15,15 @@ if (chatText.length > 0){
     li.classList.add("list-group-item");
     ul.appendChild(li);
     input.value = "";
+    saveData
 }
+}
+
+function saveData() {
+    const lists = document.querySelectorAll("li")
+    let chats = [];
+    lists.forEach(list => {
+        chats.push(list.innerText)
+    });
+    localStorage.setItem("chats", JSON.stringify(chats))
 }
