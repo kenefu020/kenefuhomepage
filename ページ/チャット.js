@@ -16,8 +16,13 @@ form.addEventListener("submit", function (event) {
     add();
 });
 
-function add() {
+function add(chat) {
 let chatText = input.value;
+
+if (chat) {
+    chatText = chat;
+}
+
 if (chatText.length > 0){
     const li = document.createElement("li");
     li.innerText = chatText;
