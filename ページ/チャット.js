@@ -9,10 +9,11 @@ form.addEventListener("submit", function (event) {
 
 function add() {
 let chatText = input.value;
-if (chatText.length > 0)
+if (chatText.length > 0){
     const li = document.createElement("li");
     li.innerText = chatText;
     li.classList.add("list-group-item");
     ul.appendChild(li);
     input.value = "";
+}
 }
