@@ -17,20 +17,20 @@ form.addEventListener("submit", function (event) {
 });
 
 function add(chat) {
-let chatText = input.value;
+    let chatText = input.value;
 
-if (chat) {
-    chatText = chat;
-}
+    if (chat) {
+        chatText = chat;
+    }
 
-if (chatText.length > 0){
-    const li = document.createElement("li");
-    li.innerText = chatText;
-    li.classList.add("list-group-item");
-    ul.appendChild(li);
-    input.value = "";
-    saveData
-}
+    if (chatText.length > 0){
+        const li = document.createElement("li");
+        li.innerText = chatText;
+        li.classList.add("list-group-item");
+        ul.appendChild(li);
+        input.value = "";
+        saveData
+    }
 }
 
 function saveData() {
