@@ -4,14 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kenefu020公式サイト イベント</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <style>
-        .for-pc { display:block; }
-.for-sp { display:none; }
-
-@media only screen and (max-width : 767px){
-  .for-pc { display:none; }
-  .for-sp { display:block; }
-}
+ main{height: 1000px;}
         .最下部文字の色変更 {color: gray;}
         <!--
 .メニュー:LINK { color:blue; text-decoration:none }
@@ -42,46 +38,49 @@ padding: 0;}
     </style>
 </head>
 <body>
-    <div class="for-pc">
-    <div class="メニュー部色変更">
-        <h2><p><a href="ホーム.html" class="メニュー"><img src="../画像/IMG_0570.png" alt="kenefu020公式サイト" width="84" height="63"></a>
-        <a href="ホーム.html" class="メニュー">ホーム</a>
-        <a href="info.html" class="メニュー">info</a>
-        <a href="イベントスペース.html" class="メニュー">イベントスペース</a>
-        <a href="各SNS.html" class="メニュー">各SNS</a>
-        <a href="フィードバック.html" class="メニュー">フィードバック</a>
-        </p></h2></div>
-        <div class="空白"></div>
+    <div class="container">
+        <header class="header">
+          <div class="header__inner">
+            <h1 class="header__title header-title">
+              <a href="ホーム.html">
+                <img src="../画像/IMG_0570.png" alt="ロゴ画像" width="60">
+              </a>
+            </h1>
+    
+            <nav class="header__nav nav" id="js-nav">
+              <ul class="nav__items nav-items">
+                <li class="nav-items__item"><a href="ホーム.html">ホーム</a></li>
+                <li class="nav-items__item"><a href="運営情報.html">運営情報</a></li>
+                <li class="nav-items__item"><a href="お知らせ.html">お知らせ</a></li>
+                <li class="nav-items__item"><a href="イベントスペース.html">イベント</a></li>
+                <li class="nav-items__item"><a href="各SNS.html">各SNS</a></li>
+              </ul>
+            </nav>
+    
+            <button class="header__hamburger hamburger" id="js-hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </header>
+        <main>
+            <div class="main">
         <h1><center><p>現在開催中のイベントは、ありません</p></center></h1>
-        <div class="最下部色変更"><span class="最下部文字の色変更">
+    </div>
+</main>
+    <footer class="footer">
+ <div>
+        <span class="最下部文字の色変更">
             <center><p>___________________________________________</p>
             <p><a href="サイト情報.html" class="最下部">サイト情報</a>
             <a href=""></a>
         <a href="フィードバック.html"></a></p>
             <p>制作:ゴクラクエンターテイメント</p>
         <p>© 2024 kenefu020</p></center>
-        </span></div>
-        </div>
-
-        <div class="for-sp">
-            <div class="メニュー部色変更">
-                <h2><p><a href="ホーム.html" class="メニュー"><img src="../画像/IMG_0570.png" alt="kenefu020公式サイト" width="60"></a>
-                <a href="ホーム.html" class="メニュー">ホーム</a>
-                <a href="info.html" class="メニュー">info</a>
-                <a href="イベントスペース.html" class="メニュー">イベントスペース</a>
-                <a href="各SNS.html" class="メニュー">各SNS</a>
-                <a href="フィードバック.html" class="メニュー">フィードバック</a>
-                </p></h2></div>
-                <div class="空白"></div>
-                <h1><center><p>現在開催中のイベントは、ありません</p></center></h1>
-                <div class="最下部色変更"><span class="最下部文字の色変更">
-                    <center><p>___________________________________________</p>
-                    <p><a href="サイト情報.html" class="最下部">サイト情報</a>
-                    <a href=""></a>
-                <a href="フィードバック.html"></a></p>
-                    <p>制作:ゴクラクエンターテイメント</p>
-                <p>© 2024 kenefu020</p></center>
-                </span></div>
-        </div>
+        </span>
+    </footer>
+</div>
 </body>
+<script src="main.js"></script>
 </html>
