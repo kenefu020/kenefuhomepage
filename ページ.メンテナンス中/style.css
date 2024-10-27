@@ -12,6 +12,8 @@ li {
 
 main {
   background-color: white;
+  display: flex;
+  font-size: 2rem;
 }
 
 
