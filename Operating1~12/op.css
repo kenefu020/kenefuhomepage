@@ -1,5 +1,6 @@
 .ボタン{background: none;
 text-decoration: none;
-color: #000;
+color: white;
+margin: 10px;
 background-color: gray;
 border-radius: 100px;}
