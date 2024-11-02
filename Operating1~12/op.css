@@ -1,5 +1,7 @@
-.ボタン{background: none;
-text-decoration: none;
-color: #000;
-background-color: gray;
-border-radius: 100px;}
+.ボタン {
+    background: none;
+    text-decoration: none;
+    color: #000;
+    background-color: gray;
+    border-radius: 100px;
+}
