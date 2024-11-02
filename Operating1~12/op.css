@@ -35,4 +35,5 @@ padding: 0;}
 .最下部文字の色変更 {color: gray;}
 .運休情報{margin: 20px;
 font-size: 4em;}
-.box{border: solid 1px black;}
+.box{border: solid 1px black;
+padding: 1em;}
