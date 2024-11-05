@@ -1,0 +1,39 @@
+.ボタン{background: none;
+text-decoration: none;
+color: white;
+padding: 10px;
+background-color: gray;
+border-radius: 100px;}
+        <!--
+.メニュー:LINK { color:blue; text-decoration:none }
+.メニュー:VISITED { color:blue; text-decoration:none }
+.メニュー:ACTIVE { color:blue; text-decoration:underline }
+.メニュー:HOVER { color:aqua; text-decoration:underline}
+
+.最下部:LINK { color:gray; text-decoration:none }
+.最下部:VISITED { color:gray; text-decoration:none }
+.最下部:ACTIVE { color:gray; text-decoration:underline }
+.最下部:HOVER { color:gray; text-decoration:underline}
+
+.クリア:visited{color:white; text-decoration:none}
+-->
+        .メニュー部色変更{height: 100px;
+    width: 100%;
+background-color: gainsboro;
+position: fixed;
+top: 10;
+left: 10;
+vertical-align: top;
+vertical-align: bottom;}
+        body {margin: 0;
+    padding: 0;}
+        .空白 {height: 100px;
+background-color: white;}
+body {margin: 0;
+padding: 0;}
+.最下部文字の色変更 {color: gray;}
+.運休情報{margin: 20px;
+font-size: 4em;}
+.box{border: solid 1px black;
+padding: 1em;
+margin-bottom: 10px;}
