@@ -37,3 +37,5 @@ font-size: 4em;}
 .box{border: solid 1px black;
 padding: 1em;
 margin-bottom: 10px;}
+.ok{color: #00F744;}
+.no{color: red;}
