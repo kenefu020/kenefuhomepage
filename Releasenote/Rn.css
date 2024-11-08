@@ -42,7 +42,10 @@ margin-bottom: 10px;}
         background-color: gainsboro;}
 .免責事項{color: red;}
 .リリース内容{background-color: grey;}
-.追加{background-color: rgb(32, 255, 2);}
+.追加{padding: 2px;
+        background: black;
+        background-color: rgb(0, 255, 42);}
 .削除{background-color: rgb(231, 51, 111);}
 .バグ修正{background-color: rgb(200, 255, 0);}
 .機能紹介{background-color: rgb(67, 106, 235);}
+.箱{padding: 2px;}

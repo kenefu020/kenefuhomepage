@@ -10,8 +10,7 @@ li {
 }
 
 
-main {
-  background-color: white;
+main {background: linear-gradient(rgb(255, 37, 37),white);
   display: flex;
   width: 100%;
 }
