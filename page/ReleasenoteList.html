@@ -11,24 +11,35 @@
       main { 
         height: 800px;
       }
+      @keyframes animate-snow {
+    0% {
+      opacity: 0;
+      top: 100px;
+    }
+  
+    10% {
+      opacity: 1;
+    }
+  
+    90% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+      top: 800px;
+    }
+  }
       .画像サイズ自動調整 img {
          width: 100%; 
       }
       .最下部文字の色変更 {
-        color: gray;
-      }
-      .メニュー:LINK {
-        color:blue; text-decoration:none 
-      }
-      .メニュー:VISITED {
-        color:blue; text-decoration:none
-      }
-      .メニュー:ACTIVE {
-        color:blue; text-decoration:underline
-      }
-      .メニュー:HOVER {
-        color:red; text-decoration:underline
-      }
+        color: gray;}
+
+      .メニュー:LINK {color:blue; text-decoration:none }
+      .メニュー:VISITED {color:blue; text-decoration:none}
+      .メニュー:ACTIVE {color:blue; text-decoration:underline}
+      .メニュー:HOVER {color:red; text-decoration:underline}
 
       .最下部:LINK {
         color:gray; text-decoration:none
@@ -99,7 +110,8 @@
 	<main>
 		<div class="main">
       <div class="snow-container">
-        <h1>・<a href="../Releasenote/v.2.4.0.html">v.2.4.0</a></h1>
+        <h1><a href="../Releasenote/v.2.4.1.html" class="メニュー">最新のリリースノート</a></h1>
+        <h1>・<a href="../ReleasenoteLists/v.2.4.x.html" class="メニュー">v.2.4.x</a></h1>
 	    </div></div>
 	 </main>
 		 <footer class="footer">

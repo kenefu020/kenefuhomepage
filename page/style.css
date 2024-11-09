@@ -1,3 +1,18 @@
+body{margin: 0;}
+.最下部文字の色変更 {color: gray;}
+<!--
+.一覧:LINK { color:blue; text-decoration:none }
+.一覧:VISITED { color:blue; text-decoration:none }
+.一覧:ACTIVE { color:blue; text-decoration:underline }
+.一覧:HOVER { color:red; text-decoration:underline}
+
+.最下部:LINK { color:gray; text-decoration:none }
+.最下部:VISITED { color:gray; text-decoration:none }
+.最下部:ACTIVE { color:gray; text-decoration:underline }
+.最下部:HOVER { color:gray; text-decoration:underline}
+
+.クリア:visited{color:white; text-decoration:none}
+-->
 /* 調整用スタイル */
 
 a {
