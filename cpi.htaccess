@@ -2,5 +2,5 @@
 #root階層にmaintenance.html（メンテナンスページ）を設置
 Options +SymLinksIfOwnerMatch
 RewriteEngine On
-RewriteCond %{REQUEST_URI} !/maintenance.html$
+RewriteCond %{kenefu} !/maintenance.html$
 RewriteRule ^(.*)$ /maintenance.html [R=302,L]
