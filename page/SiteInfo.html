@@ -1,41 +1,141 @@
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kenefu020公式サイト 情報</title>
-    <link rel="icon" href="../画像/IMG_0570.png">
+    <title>kenefu020公式サイト ホーム</title>
+	<link rel="icon" href="../画像/IMG_0570.png">
+  <link rel="stylesheet" href="style.css">
     <style>
-        .for-pc { display:block; }
-.for-sp { display:none; }
+      main { 
+        height: 800px;
+      }
+      @keyframes animate-snow {
+    0% {
+      opacity: 0;
+      top: 100px;
+    }
+  
+    10% {
+      opacity: 1;
+    }
+  
+    90% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+      top: 800px;
+    }
+  }
+      .画像サイズ自動調整 img {
+         width: 100%; 
+      }
+      .最下部文字の色変更 {
+        color: gray;
+      }
+      .メニュー:LINK {
+        color:blue; text-decoration:none 
+      }
+      .メニュー:VISITED {
+        color:blue; text-decoration:none
+      }
+      .メニュー:ACTIVE {
+        color:blue; text-decoration:underline
+      }
+      .メニュー:HOVER {
+        color:red; text-decoration:underline
+      }
 
-@media only screen and (max-width : 767px){
-  .for-pc { display:none; }
-  .for-sp { display:block; }
-}
+      .最下部:LINK {
+        color:gray; text-decoration:none
+      }
+      .最下部:VISITED {
+        color:gray; text-decoration:none 
+      }
+      .最下部:ACTIVE { 
+        color:gray; text-decoration:underline 
+      }
+      .最下部:HOVER { 
+        color:gray; text-decoration:underline
+      }
+
+      .クリア:visited {
+        color:white; text-decoration:none
+      }
+
+      .メニュー部色変更 {
+        height: 100px;
+        width: 100%;
+        background-color: gainsboro;
+        position: fixed;
+        top: 10;
+        left: 10;
+        vertical-align: top;
+        vertical-align: bottom;
+      }
+      
+      .空白 {
+        height: 100px;
+        background-color: white;
+      }
+      
+      body {
+          margin: 0;
+          padding: 0;
+      }
     </style>
 </head>
 <body>
-    <div class="for-pc">
-    <h1><a href="Home.html">ホームへ戻る</a></h1>
-    <h1>情報</h1>
-    <h1>・現在のバージョン</h1>
-    <h1>pc版</h1>
-    <h1>v.2.4.0</h1>
-    <h1>・使用言語</h1>
-    <h1>HTML/CSS</h1>
-    <h1>Java script</h1>
-    </div>
+<div class="container">
+    <header class="header">
+      <div class="header__inner">
+        <h1 class="header__title header-title">
+          <a href="Home.html">
+            <img src="../画像/IMG_0570.png" alt="ロゴ画像" width="60">
+          </a>
+        </h1>
 
-    <div class="for-sp">
-        <h1><a href="Home.html">ホームへ戻る</a></h1>
-        <h1>情報</h1>
-        <h1>・現在のバージョン</h1>
-        <h1>スマホ版</h1>
-        <h1>v.2.4.0</h1>
-        <h1>・使用言語</h1>
-        <h1>HTML/CSS</h1>
-        <h1>Java script</h1>
+        <nav class="header__nav nav" id="js-nav">
+          <ul class="nav__items nav-items">
+            <li class="nav-items__item"><a href="Home.html">ホーム</a></li>
+            <li class="nav-items__item"><a href="OperationInfo.html">運営情報</a></li>
+            <li class="nav-items__item"><a href="Notice.html">お知らせ</a></li>
+            <li class="nav-items__item"><a href="Events.html">イベント</a></li>
+            <li class="nav-items__item"><a href="EachSNS.html">各SNS</a></li>
+            <li class="nav-items__item"><a href="SiteInfo.html">その他</a></li>
+          </ul>
+        </nav>
+
+        <button class="header__hamburger hamburger" id="js-hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+	<main>
+		<div class="main">
+  <h1>サイト情報</h1>
+<h2>・現在ご利用のバージョン</h2>
+<h2>v.2.5.0</h2>
+<h2>・使用言語</h2>
+<h2>HTML/CSS</h2>
+<h2>Java script</h2>
+<h1><br>その他の情報</h1>
+<h2><a href="ReleasenoteList.html">リリースノートリスト</a>
+<br><a href="Feedback.html">フィードバック</a></h2>
     </div>
+	 </main>
+		 <footer class="footer">
+      <div>
+            <center><span class="最下部文字の色変更"><p>
+            </h1><p>___________________________________________</p></h1>
+                </h1><p>制作:ゴクラクエンターテイメント</p></h1>
+             </h1><p>© 2024 GrkEntertainment</p></center></h1></span>
+	      </footer>
+	</div>
 </body>
+		 <script src="main.js"></script>
 </html>

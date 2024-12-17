@@ -37,7 +37,7 @@ main {background: linear-gradient(rgb(255, 37, 37),white);
 
 .footer {
   background-color: black;
-  height: 200px;
+  height: 150px;
   display: flex;
 }
 

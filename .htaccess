@@ -1,13 +1,5 @@
-ErrorDocument 503 /maintenance.html
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{REQUEST_URI} !/maintenance.html
-#RewriteCond %{REMOTE_ADDR} !=000.000.00.00
-RewriteCond %{REQUEST_FILENAME} !^(.*)\.(jpg|png|css)$
-RewriteRule ^.*$ - [R=503,L]
-</IfModule>
- 
-#メンテナンス終了予定日時
-<IfModule mod_headers.c>
-Header set Retry-After "Fri, 5 December 2024 7:00:00 GMT"
-</IfModule>
+ErrorDocument 404 /404.html
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ http://kenefu.vercel.app/$1 [R=301,L]
