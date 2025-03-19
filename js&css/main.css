@@ -1,0 +1,27 @@
+body{margin-right: auto;
+    margin-left: auto;
+    margin: auto;
+    background: white;
+        display: flex;}
+
+.top {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+background-color: goldenrod;
+}
+
+.text {margin-top: 0;
+margin-left: 10px;}
+
+.s{height: 100px;
+width: 100%;}
+
+.b:LINK { color:white; text-decoration:none;
+background-color: black;
+border-radius: 10px;}
+.b:VISITED { color:white; text-decoration:none }
+.b:ACTIVE { color:white; text-decoration:underline }
+.b:HOVER { color:black; text-decoration:none;
+background-color: white;
+border-radius: 10px;}
