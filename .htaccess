@@ -1,5 +1,9 @@
 ErrorDocument 404 /404.html
 
 RewriteEngine on
-RewriteCond %{THE_REQUEST} ^.*/index.html
-RewriteRule ^(.*)index.html$ http://kenefu.vercel.app/$1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html 
+
+RewriteCond %{THE_REQUEST} \.(html)\ HTTP
+RewriteRule ^(.*)\.(html)$ /lp/$1 [R=301,L]
