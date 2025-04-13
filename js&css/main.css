@@ -10,9 +10,6 @@ background-color: goldenrod;
 transform: skewY(1deg);
 }
 
-.text {margin-top: 0;
-margin-left: 10px;}
-
 .s{height: 100px;
 width: 100%;}
 
@@ -25,4 +22,10 @@ border-radius: 10px;}
 background-color: white;
 border-radius: 10px;}
 .b{padding: 5px;
-    transform: skewY(0deg);}
+    transform: skewY(0deg);
+}
+.p {
+  margin-right: 10px;         /* 右に少し余白（調整用） */
+  text-align: center;
+}
+
