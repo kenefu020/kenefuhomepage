@@ -1,12 +1,9 @@
-let header = document.getElementById('header')
-let html = 
-(
-    "<div class='top'><br><h1 class='text'>"
-    +"<a class='b' href='../../../'>TOP</a> "
-    +"<a class='b' href='../../page/sns/'>SNS</a> "
-    +"<a class='b' href='../../page/other'>OTHER</>"
-    +"</h1></div>");
-header.innerHTML = html;
+fetch('../../header.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('header').innerHTML = data;
+  });
+
 let a = (1)
 console.log('正常に動作しました。');
 

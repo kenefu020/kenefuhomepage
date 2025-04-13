@@ -1,14 +1,13 @@
-body{margin-right: auto;
-    margin-left: auto;
-    margin: auto;
-    background: white;
-        display: flex;}
+body{margin: auto;
+    background: white;}
 
 .top {
+    margin-top: 10px;
     height: 100px;
     width: 100%;
     position: fixed;
 background-color: goldenrod;
+transform: skewY(1deg);
 }
 
 .text {margin-top: 0;
@@ -25,3 +24,5 @@ border-radius: 10px;}
 .b:HOVER { color:black; text-decoration:none;
 background-color: white;
 border-radius: 10px;}
+.b{padding: 5px;
+    transform: skewY(0deg);}
