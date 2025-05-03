@@ -6,8 +6,8 @@ body{margin: auto;
     height: 100px;
     width: 100%;
     position: fixed;
-background-color: goldenrod;
-transform: skewY(1deg);
+background-color: rgb(26, 187, 223);
+border-radius: 50px;
 }
 
 .s{height: 100px;
