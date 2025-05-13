@@ -7,10 +7,14 @@
 </head>
 <body>
     <div id="test1"></div>
+    <div id="me"></div>
 </body>
 <script>
     let me = prompt('名前を入力...')
+    let my = (100)
     let teki = (100)
+
+    document.getElementById('me').innerHTML(me + my)
     document.getElementById('test1').innerHTML('敵' + teki)
 </script>
 </html>
